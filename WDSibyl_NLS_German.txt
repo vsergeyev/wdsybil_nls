@@ -1,0 +1,735 @@
+STRINGTABLE WDSibyl_NLS_German
+BEGIN
+     SSPCCMsgStart,                "SPCCMsgStart"
+
+     SLanguage,                    "Deutsch"
+
+     /* Buttons */
+     SOk,                          "Ok"
+     SOkButton,                    "~Ok"
+     SCancel,                      "Abbruch"
+     SCancelButton,                "Abbruch"
+     SHelp,                        "Hilfe"
+     SHelpButton,                  "Hilfe"
+     SOpen,                        "ôffnen"
+     SOpenButton,                  "ô~ffnen"
+     SSave,                        "Speichern"
+     SSaveButton,                  "~Speichern"
+     SCreate,                      "Erzeugen"
+     SCreateButton,                "~Erzeugen"
+     SChange,                      "Wechseln"
+     SChangeButton,                "~Wechseln"
+     SFind,                        "Finden"
+     SFindButton,                  "~Finden"
+     SForward,                     "VorwÑrts"
+     SForwardButton,               "~VorwÑrts"
+     SBackward,                    "RÅckwÑrts"
+     SBackwardButton,              "~RÅckwÑrts"
+     SSearch,                      "Suchen"
+     SSearchButton,                "~Suchen"
+     SReplace,                     "Ersetzen"
+     SReplaceButton,               "~Ersetzen"
+     SConfirm,                     "BestÑtigung"
+     SConfirmButton,               "~BestÑtigung"
+     SAll,                         "Alle"
+     SAllButton,                   "~Alle"
+     SSelect,                      "Auswahl"
+     SSelectButton,                "~Auswahl"
+     SYes,                         "Ja"
+     SYesButton,                   "~Ja"
+     SNo,                          "Nein"
+     SNoButton,                    "~Nein"
+     SAbort,                       "öbergehen"
+     SAbortButton,                 "ö~bergehen"
+     SRetry,                       "Wiederholen"
+     SRetryButton,                 "~Wiederholen"
+     SIgnore,                      "Ignorieren"
+     SIgnoreButton,                "~Ignorieren"
+     SClose,                       "Schlie·en"
+     SCloseButton,                 "~Schlie·en"
+     SInsert,                      "EinfÅgen"
+     SInsertButton,                "~EinfÅgen"
+     SEdit,                        "Bearbeiten"
+     SEditButton,                  "~Bearbeiten"
+     SDelete,                      "Lîschen"
+     SDeleteButton,                "~Lîschen"
+     SPrev,                        "ZurÅck"
+     SPrevButton,                  "~ZurÅck"
+     SNext,                        "Vor"
+     SNextButton,                  "~Vor"
+     SPrinter,                     "Drucken"
+     SPrinterButton,               "~Drucken"
+     SNew,                         "Neu"
+     SNewButton,                   "~Neu"
+
+
+     /* Captions */
+     SError,                       "Fehler"
+     SCriticalError,               "Schwerer Fehler"
+     SInformation,                 "Information"
+     SConfirmation,                "BestÑtigen"
+     SWarning,                     "Warnung"
+     SMessage,                     "Nachricht"
+     SReadBlockFromFile,           "Lese Block aus Datei"
+     SWriteBlockToFile,            "Schreibe Block in Datei"
+     SUser,                        "User"
+     SPassword,                    "Passwort"
+
+     /* Standard file filters */
+     SAllFiles,                    "Alle Dateien"
+     SVideoFiles,                  "Video Dateien"
+     SWaveFiles,                   "Wave Dateien"
+
+     /* Standard Hints */
+     SClickHereToAccept,           "Klicken Sie hier um fortzufahren"
+     SClickHereToCancel,           "Klicken Sie hier um abzubrechen"
+     SClickHereToGetHelp,          "Klicken Sie hier um Hilfe zu erhalten"
+     SClickHereToCreateADir,       "Klicken Sie hier um ein Verzeichnis zu
+erzeugen"
+     SPlayHint,                    "Spielen"
+     SRecordHint,                  "Aufnehmen"
+     SNextTrackHint,               "NÑchster Titel"
+     SPreviousTrackHint,           "Vorheriger Titel"
+     SPauseHint,                   "Pause"
+     SRewindHint,                  "RÅcklauf"
+     SStopHint,                    "Stop"
+     SBackTrackHint,               "Titel zurÅck"
+     SStepTrackHint,               "Titel Åberspringen"
+     SEjectHint,                   "Auswerfen"
+     SFirstRecordHint,             "Erster Datensatz"
+     SPriorRecordHint,             "Voriger Datensatz"
+     SNextRecordHint,              "NÑchster Datensatz"
+     SLastRecordHint,              "Letzter Datensatz"
+     SInsertRecordHint,            "Datensatz einfÅgen"
+     SDeleteRecordHint,            "Datensatz lîschen"
+     SEditRecordHint,              "Datensatz bearbeiten"
+     SPostRecordHint,              "Datensatz bestÑtigen"
+     SCancelRecordHint,            "Datensatz abbrechen"
+     SRefreshRecordHint,           "Datensatz auffrischen"
+
+     /* CREATEDIR Dialog */
+     SCreateDirectory,             "Verzeichnis erstellen"
+     SEnterNewDirectory,           "Neuenr Verzeichnisname"
+     SCannotCreateDir,             "Verzeichnis kann nicht erzeugt werden"
+
+     /* CHANGEDIR dialog */
+     SChangeDirectory,             "Verzeichnis wechseln"
+     SDirectoryName,               "Verzeichnisname"
+
+     /* FIND Dialog */
+     SFindText,                    "Text suchen"
+     SOptions,                     "Optionen"
+     SCaseSensitive,               "~Gro·-/Kleinschreibung"
+     SWordsOnly,                   "Nur gan~ze Wîrter"
+     SScope,                       "Bereich"
+     SGlobal,                      "Gesa~mter Text"
+     SSelectedText,                "~Selektierter Text"
+     SOrigin,                      "Startpunkt"
+     SEntireScope,                 "~Textanfang"
+     SFromCursor,                  "Ab ~Cursorposition"
+     SDirection,                   "Richtung"
+
+     /* FONT Dialog */
+     SSelectAFont,                 "Zeichensatz auswÑhlen"
+     SName,                        "Name"
+     SSize,                        "Grî·e"
+     SStyle,                       "Stil"
+     SItalic,                      "~Kursiv"
+     SBold,                        "~Fett"
+     SEmphasis,                    "Optionen"
+     SOutline,                     "U~mrandet"
+     SStrikeOut,                   "~Durchgestrichen"
+     SUnderScore,                  "~Unterstrichen"
+     SExampleText,                 "Beispieltext"
+
+     /* OPEN Dialog */
+     SOpenAFile,                   "Datei îffnen"
+     SFileName,                    "Dateiname"
+     SFileType,                    "Dateityp"
+     SDrive,                       "Laufwerk"
+     SFiles,                       "Dateien"
+     SDirectories,                 "Verzeichnisse"
+     SChangeToTargetDir,           "~Wechsel ins Zielverzeichnis"
+
+     /* SAVE Dialog */
+     SSaveFileAs,                  "Datei speichern"
+
+     /* REPLACE Dialog */
+     SReplaceText,                 "Text ersetzen"
+
+     /* COLOR Dialog */
+     SSelectAColor,                "Auswahl einer Farbe"
+     SDefaultColors,               "Standardfarben"
+
+     /* INFO Dialog */
+     SProgram,                     "Programm"
+     SVersion,                     "Version"
+     SPath,                        "Verzeichnis"
+
+
+     /* Standard error messages */
+     SStreamReadErrorText,         "TStream 'read' Ausnahme (EStreamReadError)
+aufgetreten"
+     SStreamWriteErrorText,        "TStream 'write' Ausnahme (EStreamReadError)
+aufgetreten"
+     SStreamCreateErrorText,       "TStream 'create' Ausnahme
+(EStreamCreateError) aufgetreten"
+     SStreamOpenErrorText,         "TStream 'open' Ausnahme (EStreamOpenError)
+aufgetreten"
+     SStreamSeekErrorText,         "TStream 'seek' Ausnahme (EStreamSeekError)
+aufgetreten"
+     SListErrorText,               "TList Ausnahme (EListError) aufgetreten"
+     SCollectionErrorText,         "UngÅltiges Collection-Element"
+     SStringListDupeErrorText,     "TStringList: Doppeltes Element."
+     SStringListInsertErrorText,   "EinfÅgen in eine sortierte Liste ist nicht
+erlaubt."
+     SEBitsErrorText,              "EBits Fehler."
+     SNoMoreTimers,                "Keine weiteren Zeitgeber (Timer)"
+     SCouldNotRemoveTimer,         "Konnte Zeitgeber (Timer) nicht entfernen"
+     SAppHelpFailed,               "Hilfedatei konnte nicht gefunden oder
+initialisiert werden."
+     SProgramAborted,               "Program abgebrochen"
+     SMainWindowFailed,            "Hauptfenster nicht initialisiert"
+     SCouldNotCreateWindow,        "Fenster konnte nicht erzeugt werden"
+     SMMAccessError,               "Zugriffsfehler in MDM.DLL oder MIO.DLL.
+MMPM/2 korrekt installiert?"
+     SMDMNotFound,                 "MDM.DLL nicht gefunden. MMPM/2 installiert?"
+     SMMIONotFound,                "MMIO.DLL nicht gefunden. MMPM/2
+installiert?"
+     SUnknownMCIError,             "Unbekannter MCI Fehler"
+     SNoFileName,                  "Kein Dateiname angegeben"
+     SFatalMCIError,               "Fataler MCI Fehler"
+     SWrongMovieHandle,            "Falsches Movie Handle"
+     SCannotPerformDBAction,       "Diese Aktion kann nicht auf ein offenes
+DataSet ausgefÅhrt werden"
+     SErrorFetchingSQLStatement,   "Error fetching SQL statement"
+     SErrorExecutingSQLStatement,  "Fehler beim auswerten der SQL Anweisung"
+     SEmptyResultSet,              "Leeres Result-Set"
+     SDataSourceLinkError,         "DataSource mu· mit einer TTable Komponente
+verbunden sein"
+     SSQLError,                    "SQL Fehler"
+     SErrLoadingDB,                "Fehler beim Laden der Datenbank-DLL"
+     SErrAllocDBEnv,               "Fehler beim Initialisieren der
+Datenbankumgebung"
+     SErrAllocDBConnect,           "Fehler beim Erzeugen des
+Datenbank-Verbindungshandles"
+     SErrSettingDBOpts,            "Fehler beim Setzen der
+Datenbank-Umgebungsoptionen"
+     SErrorDBConnecting,           "Datenbank-Verbindungsfehler"
+     SCouldNotCopyText,            "Text konnte nicht kopiert werden"
+     SCouldNotAccessClipboard,     "Zugriff auf das ClipBoard verweigert"
+     SSaveQuery,                   "'%s' wurde modifiziert. Speichern?"
+     SFileNotFound,                "Datei '%s' nicht gefunden"
+     SErrorWriting,                "Schreibfehler"
+     SLineWouldBeTooLong,          "Zeile wÑre zu lang"
+     SReplaceThisString,           "Diese Zeichenkette ersetzen?"
+     SLoading,                     "Lade..."
+     SSaving,                      "Speichere..."
+     SAlreadyExistsOverwrite,      "Datei '%s' existiert bereits.
+öberschreiben?"
+     SSearchStringNotFound,        "Suchstring '%s' wurde nicht gefunden"
+     SErrorWritingTemporaryFile,   "Fehler beim Schreiben in temporÑre Datei"
+     SErrorCreatingTemporaryFile,  "Fehler beim Erzeugen der temporÑren Datei"
+     SCannotOpenIniFile,           "Ini-File kann nicht geîffnet werden"
+     SWriteError,                  "Schreibfehler"
+     SInvalidOutlineNodeOwner,     "UngÅltiger Outline-Node Besitzer"
+     SInvalidOutlineNodeIndex,     "UngÅltiger Outline-Node Index"
+     SInvalidOutlineNode,          "UngÅltige Outline-Node"
+     SInvalidBitmap,               "UngÅltiges Bitmapformat (EInvalidBitmap)
+Ausnahme"
+     SInvalidIcon,                 "UngÅltiges Iconformat (EInvalidIcon)
+Ausnahme"
+     SInvalidCursor,               "UngÅltiges Mauszeigerformat (EInvalidCursor)
+Ausnahme"
+     SInvalidListBoxItemIndex,     "UngÅltiges Index fÅr Listboxelement"
+     SInvalidMemoLineIndex,        "UngÅltiger Index fÅr MLE Zeile"
+     SPropertyNotFound,            "Property '%s' ist in der Klasse '%s' nicht
+verîffentlicht (Published)"
+     SPropertySkipped,             "Property wird Åberlesen"
+     SPropertyReadOnly,            "Property '%s' ist nur lesbar"
+     SCouldNotReadFromProperty,    "Kann Property '%s' nicht lesen"
+     SPropError,                   "Property %s nicht gefunden"
+     SComponentNotFound,           "Komponente '%s' nicht gefunden"
+     SUseRegisterClasses,          "Benutzen Sie 'RegisterClasses' um die
+Komponente zu registrieren!"
+     SSCUErrorInClass,             "SCU Fehler in Klasse '%s'"
+     SMethodNotFound,              "Methode '%s' ist in der Klasse '%s' nicht
+verîffentlicht (Published)"
+     SCouldNotWriteToProperty,     "Schreibzugriff auf Property '%s'
+fehlgeschlagen"
+     SLinkNotFound,                "Link fÅr '%s' nicht gefunden"
+
+     /* SysUtils messages */
+     SInvalidInteger,              "'%s' ist kein gÅltiger Integer-Wert"
+     SInvalidFloat,                "'%s' ist kein gÅltiger Gleitkomma-Wert"
+     SInvalidDate,                 "'%s' ist kein gÅltiges Datum"
+     SInvalidTime,                 "'%s' ist keine gÅltige Zeit"
+     SInvalidDateTime,             "'%s' ist keine gÅltige
+Datum/Zeit-Kombination"
+     STimeEncodeError,             "Illegales Argument '%d:%d:%d.%d' fÅr
+Zeitkodierung"
+     SDateEncodeError,             "Illegales Argument '%d/%d/%d' fÅr
+Datumskodierung"
+     SInvalidFormat,               "Format-Platzhalter '%s' illegal oder
+unpassendes Argument"
+     SArgumentMissing,             "Kein Argument fÅr Format-Platzhalter '%s'
+gefunden"
+
+
+     SDate,                        "Datum"
+     STime,                        "Zeit"
+     SShortMonthJan,               "Jan"
+     SShortMonthFeb,               "Feb"
+     SShortMonthMar,               "MÑr"
+     SShortMonthApr,               "Apr"
+     SShortMonthMay,               "Mai"
+     SShortMonthJun,               "Jun"
+     SShortMonthJul,               "Jul"
+     SShortMonthAug,               "Aug"
+     SShortMonthSep,               "Sep"
+     SShortMonthOct,               "Okt"
+     SShortMonthNov,               "Nov"
+     SShortMonthDec,               "Dez"
+
+     SLongMonthJanuary,            "Januar"
+     SLongMonthFebruary,           "Februar"
+     SLongMonthMarch,              "MÑrz"
+     SLongMonthApril,              "April"
+     SLongMonthMay,                "Mai"
+     SLongMonthJune,               "Juni"
+     SLongMonthJuly,               "Juli"
+     SLongMonthAugust,             "August"
+     SLongMonthSeptember,          "September"
+     SLongMonthOctober,            "Oktober"
+     SLongMonthNovember,           "November"
+     SLongMonthDecember,           "Dezember"
+
+     SShortDayNamesSun,            "So"
+     SShortDayNamesMon,            "Mo"
+     SShortDayNamesTue,            "Di"
+     SShortDayNamesWed,            "Mi"
+     SShortDayNamesThu,            "Do"
+     SShortDayNamesFri,            "Fr"
+     SShortDayNamesSat,            "Sa"
+
+     SLongDayNamesSunday,          "Sonntag"
+     SLongDayNamesMonday,          "Montag"
+     SLongDayNamesTuesday,         "Dienstag"
+     SLongDayNamesWednesday,       "Mittwoch"
+     SLongDayNamesThursday,        "Donnerstag"
+     SLongDayNamesFriday,          "Freitag"
+     SLongDayNamesSaturday,        "Samstag"
+
+     /* Dual ListBox */
+     SSource,                      "Quelle"
+     SDestination,                 "Ziel"
+
+     /* Printer Dialog */
+     SSetupPrinter,                "Drucker einrichten"
+     SSetPrinter,                  "Drucker ~setzen"
+     SCurrentPrinter,              "Aktueller Drucker"
+     SProperties,                  "~Eigenschaften"
+     SClickHereToSetProperties,    "Klicken Sie hier um die Eigenschaften zu
+Ñndern"
+     SPrint,                       "Drucken"
+     SPrintButton,                 "~Drucken"
+     STitle,                       "Titel"
+     SCopies,                      "Kopien"
+     SPages,                       "Seiten"
+     SFrom,                        "Von"
+     STo,                          "nach"
+     SFile,                        "Datei"
+
+     /* TabCtrls */
+     SNextPage,                    "NÑchste Seite"
+     SPreviousPage,                "Vorherige Seite"
+
+     /* Printer */
+     SInvalidIndex,                "UngÅltiger Druckerindex %d. Es sind nur %d
+Drucker verfÅgbar."
+     SNoHandleIC,                  "Fehler beim Ermitteln des Handles fÅr den
+'Information Context' (rc=$%x)."
+     SNoHandleDC,                  "Fehler beim Ermitteln des Handles fÅr den
+'Device Context' (rc=$%x)."
+     SNoHandlePS,                  "Fehler beim Ermitteln des Handles fÅr den
+'Presentation Space' (rc=$%x)."
+     SPrinterIdle,                 "Es wurde versucht, die Funktion '%s'
+au·erhalb eines Dokumentes aufzurufen."
+     SPrinterBusy,                 "Es wurde versucht, die Funktion '%s'
+innerhalb eines Dokumentes aufzurufen."
+     SDeviceNotFound,              "Kein GerÑt fÅr Warteschlange '%s' gefunden."
+     SJobProperties,               "Unerwartete Grî·e fÅr die Eigenschaft eines
+Druck-Jobs. Es werden %d anstelle von %d Bytes benîtigt."
+     SPrinterInit1,                "Fehler beim Initialisieren des
+Druckerobjektes."
+     SPrinterInit2,                "Druckerfunktionen sind nicht verfÅgbar."
+
+     STerminateProgram,            "Programm beenden ?"
+END
+
+STRINGTABLE WDSibyl_NLS_Dutch
+BEGIN
+     SSPCCMsgStart,                "SPCCMsgStart"
+
+     SLanguage,                    "Nederlands"
+
+     /* Buttons */
+     SOk,                          "Ok"
+     SOkButton,                    "~Ok"
+     SCancel,                      "Afbreken"
+     SCancelButton,                "Afbreken"
+     SHelp,                        "Help"
+     SHelpButton,                  "Help"
+     SOpen,                        "Open"
+     SOpenButton,                  "O~penen"
+     SSave,                        "Opslaan"
+     SSaveButton,                  "~Opslaan"
+     SCreate,                      "Aanmaken"
+     SCreateButton,                "~Aanmaken"
+     SChange,                      "Veranderen"
+     SChangeButton,                "~Veranderen"
+     SFind,                        "Vinden"
+     SFindButton,                  "~Vinden"
+     SForward,                     "Vooruit"
+     SForwardButton,               "~Vooruit"
+     SBackward,                    "Achteruit"
+     SBackwardButton,              "~Achteruit"
+     SSearch,                      "Zoeken"
+     SSearchButton,                "~Zoeken"
+     SReplace,                     "Vervangen"
+     SReplaceButton,               "~Vervangen"
+     SConfirm,                     "Bevestigen"
+     SConfirmButton,               "~Bevestigen"
+     SAll,                         "Alle"
+     SAllButton,                   "~Alle"
+     SSelect,                      "Kies"
+     SSelectButton,                "~Kies"
+     SYes,                         "Ja"
+     SYesButton,                   "~Ja"
+     SNo,                          "Nee"
+     SNoButton,                    "~Nee"
+     SAbort,                       "Afbreken"
+     SAbortButton,                 "A~breken"
+     SRetry,                       "Herhalen"
+     SRetryButton,                 "~Herhalen"
+     SIgnore,                      "Negeren"
+     SIgnoreButton,                "~Negeren"
+     SClose,                       "Sluiten"
+     SCloseButton,                 "~Sluiten"
+     SInsert,                      "Tussenvoegen"
+     SInsertButton,                "~Tussenvoegen"
+     SEdit,                        "Bewerken"
+     SEditButton,                  "~Bewerken"
+     SDelete,                      "Wissen"
+     SDeleteButton,                "~Wissen"
+     SPrev,                        "Terug"
+     SPrevButton,                  "~Terug"
+     SNext,                        "Volgende"
+     SNextButton,                  "~Volgende"
+     SPrinter,                     "Afdrukken"
+     SPrinterButton,               "~Afdrukken"
+     SNew,                         "Nieuw"
+     SNewButton,                   "~Nieuw"
+
+
+     /* Captions */
+     SError,                       "Fout"
+     SCriticalError,               "Kritische fout"
+     SInformation,                 "Informatie"
+     SConfirmation,                "Bevestiging"
+     SWarning,                     "Waarschuwing"
+     SMessage,                     "Bericht"
+     SReadBlockFromFile,           "Lees blok uit bestand"
+     SWriteBlockToFile,            "Schrijf blok in bestand"
+     SUser,                        "User"
+     SPassword,                    "Password"
+
+     /* Standard file filters */
+     SAllFiles,                    "Alle bestanden"
+     SVideoFiles,                  "Video bestanden"
+     SWaveFiles,                   "Wave bestanden"
+
+     /* Standard Hints */
+     SClickHereToAccept,           "Klik hier om te accepteren"
+     SClickHereToCancel,           "Klik hier om af te breken"
+     SClickHereToGetHelp,          "Klik hier om hulp te krijgen"
+     SClickHereToCreateADir,       "Klik hier om een directory aan te maken"
+     SPlayHint,                    "Afspelen"
+     SRecordHint,                  "Opnemen"
+     SNextTrackHint,               "Volgend spoor"
+     SPreviousTrackHint,           "Vorige spoor"
+     SPauseHint,                   "Pauze"
+     SRewindHint,                  "Achteruit"
+     SStopHint,                    "Stop"
+     SBackTrackHint,               "Spoor terug"
+     SStepTrackHint,               "Spoor overspringen"
+     SEjectHint,                   "Uitwerpen"
+     SFirstRecordHint,             "Eerste opname"
+     SPriorRecordHint,             "Vorige opname"
+     SNextRecordHint,              "Volgende opname"
+     SLastRecordHint,              "Laatste opname"
+     SInsertRecordHint,            "Opname tussenvoegen"
+     SDeleteRecordHint,            "Opname wissen"
+     SEditRecordHint,              "Opname bewerken"
+     SPostRecordHint,              "Opname bevestigen"
+     SCancelRecordHint,            "Opname afbreken"
+     SRefreshRecordHint,           "Opname verversen"
+
+     /* CREATEDIR Dialog */
+     SCreateDirectory,             "Directory aanmaken"
+     SEnterNewDirectory,           "Geef nieuwe directorynaam"
+     SCannotCreateDir,             "Directory kan niet aangemaakt worden"
+
+     /* CHANGEDIR dialog */
+     SChangeDirectory,             "Verander van directory"
+     SDirectoryName,               "Directorynaam"
+
+     /* FIND Dialog */
+     SFindText,                    "Tekst zoeken"
+     SOptions,                     "Opties"
+     SCaseSensitive,               "~Let op hoofd- en kleine letters"
+     SWordsOnly,                   "Alleen hele woorden"
+     SScope,                       "Bereik"
+     SGlobal,                      "Hele tekst"
+     SSelectedText,                "~Geselecteerde tekst"
+     SOrigin,                      "Startpunt"
+     SEntireScope,                 "~Hele bereik"
+     SFromCursor,                  "Vanaf ~cursorpositie"
+     SDirection,                   "Richting"
+
+     /* FONT Dialog */
+     SSelectAFont,                 "Tekenset uitkiezen"
+     SName,                        "Naam"
+     SSize,                        "Grootte"
+     SStyle,                       "Stijl"
+     SItalic,                      "~Cursief"
+     SBold,                        "~Vet"
+     SEmphasis,                    "Nadruk"
+     SOutline,                     "O~mrandt"
+     SStrikeOut,                   "D~oorgestreept"
+     SUnderScore,                  "O~nderstreept"
+     SExampleText,                 "Voorbeeldtekst"
+
+     /* OPEN Dialog */
+     SOpenAFile,                   "Open een bestand"
+     SFileName,                    "Bestandsnaam"
+     SFileType,                    "Bestandstype"
+     SDrive,                       "Loopwerk"
+     SFiles,                       "Bestanden"
+     SDirectories,                 "Directory's"
+     SChangeToTargetDir,           "~Ga naar bestemmingsdirectory"
+
+     /* SAVE Dialog */
+     SSaveFileAs,                  "Bestand opslaan als"
+
+     /* REPLACE Dialog */
+     SReplaceText,                 "Tekst vervangen"
+
+     /* COLOR Dialog */
+     SSelectAColor,                "Kies een kleur"
+     SDefaultColors,               "Standaard kleuren"
+
+     /* INFO Dialog */
+     SProgram,                     "Programma"
+     SVersion,                     "Versie"
+     SPath,                        "Directory"
+
+
+     /* Standard error messages */
+     SStreamReadErrorText,         "TStream 'read' exception (EStreamReadError)
+is opgetreden"
+     SStreamWriteErrorText,        "TStream 'write' exception (EStreamReadError)
+is opgetreden"
+     SStreamCreateErrorText,       "TStream 'create' exception
+(EStreamCreateError) is opgetreden"
+     SStreamOpenErrorText,         "TStream 'open' exception (EStreamOpenError)
+is opgetreden"
+     SStreamSeekErrorText,         "TStream 'seek' exception (EStreamSeekError)
+is opgetreden"
+     SListErrorText,               "TList exception (EListError) is opgetreden"
+     SCollectionErrorText,         "Ongeldig Collection-element exception is
+opgetreden"
+     SStringListDupeErrorText,     "TStringList: dubbel voorkomend element."
+     SStringListInsertErrorText,   "Tussenvoegen in een gesorteerde Lijst is
+niet toegestaan."
+     SEBitsErrorText,              "EBits fout."
+     SNoMoreTimers,                "Geen Timers meer"
+     SCouldNotRemoveTimer,         "Kan Timer niet verwijderen"
+     SAppHelpFailed,               "Hulpbestand kon niet gevonden of
+geinitialiseerd worden."
+     SProgramAborted,              "Programma afgebroken"
+     SMainWindowFailed,            "Hoofdvenster niet geinitialiseerd"
+     SCouldNotCreateWindow,        "Kon venster niet aanmaken"
+     SMMAccessError,               "Toegangsfout in MDM.DLL of MMIO.DLL. Is
+MMPM/2 korrect geinstalleerd?"
+     SMDMNotFound,                 "MDM.DLL niet gevonden. Is MMPM/2
+geinstalleerd?"
+     SMMIONotFound,                "MMIO.DLL niet gevonden. Is MMPM/2
+geinstalleerd"
+     SUnknownMCIError,             "Onbekende MCI fout"
+     SNoFileName,                  "Geen bestandsnaam aangegeven"
+     SFatalMCIError,               "Fatale MCI fout"
+     SWrongMovieHandle,            "Verkeerde movie Handle"
+     SCannotPerformDBAction,       "Deze actie kan niet op een geopende DataSet
+gedaan worden"
+     SErrorFetchingSQLStatement,   "Fout bij ophalen SQL commando"
+     SErrorExecutingSQLStatement,  "Fout bij uitvoeren SQL commando"
+     SEmptyResultSet,              "Lege Result-Set"
+     SDataSourceLinkError,         "DataSource moet met een TTable component
+verbonden zijn"
+     SSQLError,                    "SQL fout"
+     SErrLoadingDB,                "Fout bij het laden van de database-DLL"
+     SErrAllocDBEnv,               "Fout bij het aanmaken van de database
+omgeving"
+     SErrAllocDBConnect,           "Fout bij het aanmaken van de database
+verbindings 'handles'"
+     SErrSettingDBOpts,            "Fout bij het zetten van de database
+omgevingsopties"
+     SErrorDBConnecting,           "Database verbindingsfout"
+     SCouldNotCopyText,            "Kon tekst niet kopieeren"
+     SCouldNotAccessClipboard,     "Kon ClipBoard niet benaderen"
+     SSaveQuery,                   "'%s' werd gemodificeerd. Opslaan?"
+     SFileNotFound,                "Bestand '%s' niet gevonden"
+     SErrorWriting,                "Schrijffout"
+     SLineWouldBeTooLong,          "Lijn zou te lang zijn"
+     SReplaceThisString,           "Deze tekst vervangen?"
+     SLoading,                     "Bezig met laden..."
+     SSaving,                      "Bezig met opslaan..."
+     SAlreadyExistsOverwrite,      "Bestand '%s' bestaat al. Overschrijven?"
+     SSearchStringNotFound,        "Zoektekst '%s' niet gevonden"
+     SErrorWritingTemporaryFile,   "Fout bij het schrijven in tijdelijk bestand"
+     SErrorCreatingTemporaryFile,  "Fout bij aanhet maken van een tijdelijk
+bestand"
+     SCannotOpenIniFile,           "Ini-bestand kan niet geopend worden"
+     SWriteError,                  "Schrijffout"
+     SInvalidOutlineNodeOwner,     "Ongeldige Outline-Node eigenaar"
+     SInvalidOutlineNodeIndex,     "Ongeldige Outline-Node index"
+     SInvalidOutlineNode,          "Ongeldige Outline-Node"
+     SInvalidBitmap,               "Ongeldig Bitmap format (EInvalidBitmap)
+exception opgetreden"
+     SInvalidIcon,                 "Ongeldig Icon format (EInvalidIcon)
+exception opgetreden"
+     SInvalidCursor,               "Ongeldig Muisaanwijzer format
+(EInvalidCursor) exception opgetreden"
+     SInvalidListBoxItemIndex,     "Ongeldige Index voor Listbox element"
+     SInvalidMemoLineIndex,        "Ongeldige Index voor MLE lijn"
+     SPropertyNotFound,            "Property '%s' is in de klasse '%s' niet
+gepubliceerd"
+     SPropertySkipped,             "Property word overgeslagen"
+     SPropertyReadOnly,            "Property '%s' is alleen leesbaar"
+     SCouldNotReadFromProperty,    "Kon Property '%s' niet lezen"
+     SPropError,                   "Property %s niet gevonden"
+     SComponentNotFound,           "Component '%s' niet gevonden"
+     SUseRegisterClasses,          "Gebruik 'RegisterClasses' om de componenten
+te registreren!"
+     SSCUErrorInClass,             "SCU Fout in klasse '%s'"
+     SMethodNotFound,              "Methode '%s' is in de klasse '%s' niet
+gepubliceerd"
+     SCouldNotWriteToProperty,     "Kon niet schrijven naar Property '%s'"
+     SLinkNotFound,                "Link voor '%s' niet gevonden"
+
+     /* SysUtils messages */
+     SInvalidInteger,              "'%s' is geen geldige integer waarde"
+     SInvalidFloat,                "'%s' is geen geldige glijdende komma waarde"
+     SInvalidDate,                 "'%s' is geen geldige datum"
+     SInvalidTime,                 "'%s' is geen geldige tijd"
+     SInvalidDateTime,             "'%s' is geen geldige datum/tijd combinatie"
+     STimeEncodeError,             "Ongeldig argument '%d:%d:%d.%d' voor
+tijdcodering"
+     SDateEncodeError,             "Ongeldig argument '%d/%d/%d' voor
+datumcodering"
+     SInvalidFormat,               "Formatteringsspecificatie '%s' is ongeldig
+of past niet bij argument"
+     SArgumentMissing,             "Geen argument voor formatteringsspecificatie
+'%s' gevonden"
+
+
+     SDate,                        "Datum"
+     STime,                        "Tijd"
+     SShortMonthJan,               "Jan"
+     SShortMonthFeb,               "Feb"
+     SShortMonthMar,               "Maa"
+     SShortMonthApr,               "Apr"
+     SShortMonthMay,               "Mei"
+     SShortMonthJun,               "Jun"
+     SShortMonthJul,               "Jul"
+     SShortMonthAug,               "Aug"
+     SShortMonthSep,               "Sep"
+     SShortMonthOct,               "Oct"
+     SShortMonthNov,               "Nov"
+     SShortMonthDec,               "Dec"
+
+     SLongMonthJanuary,            "januari"
+     SLongMonthFebruary,           "februari"
+     SLongMonthMarch,              "maart"
+     SLongMonthApril,              "april"
+     SLongMonthMay,                "mei"
+     SLongMonthJune,               "juni"
+     SLongMonthJuly,               "juli"
+     SLongMonthAugust,             "augustus"
+     SLongMonthSeptember,          "september"
+     SLongMonthOctober,            "oktober"
+     SLongMonthNovember,           "november"
+     SLongMonthDecember,           "december"
+
+     SShortDayNamesSun,            "Zo"
+     SShortDayNamesMon,            "Ma"
+     SShortDayNamesTue,            "Di"
+     SShortDayNamesWed,            "Wo"
+     SShortDayNamesThu,            "Do"
+     SShortDayNamesFri,            "Vr"
+     SShortDayNamesSat,            "Za"
+
+     SLongDayNamesSunday,          "Zondag"
+     SLongDayNamesMonday,          "Maandag"
+     SLongDayNamesTuesday,         "Dinsdag"
+     SLongDayNamesWednesday,       "Woensdag"
+     SLongDayNamesThursday,        "Donderdag"
+     SLongDayNamesFriday,          "Vrijdag"
+     SLongDayNamesSaturday,        "Zaterdag"
+
+     /* Dual ListBox */
+     SSource,                      "Herkomst"
+     SDestination,                 "Bestemming"
+
+     /* Printer Dialog */
+     SSetupPrinter,                "Printer inrichten"
+     SSetPrinter,                  "Printer ~zetten"
+     SCurrentPrinter,              "Aktuele printer"
+     SProperties,                  "~Eigenschappen"
+     SClickHereToSetProperties,    "Klik hier om de eigenschappen te veranderen"
+     SPrint,                       "Afdrukken"
+     SPrintButton,                 "~Afdrukken"
+     STitle,                       "Titel"
+     SCopies,                      "Kopieen"
+     SPages,                       "Pagina's"
+     SFrom,                        "van"
+     STo,                          "tot"
+     SFile,                        "Bestand"
+
+     /* TabCtrls */
+     SNextPage,                    "Volgende bladzijde"
+     SPreviousPage,                "Vorige bladzijde"
+
+     /* Printer */
+     SInvalidIndex,                "Ongeldige afdrukkerindex %d. Er zijn maar %d
+afdrukkers beschikbaar."
+     SNoHandleIC,                  "Fout bij het verkrijgen van de Handle van de
+'Information Context' (rc=$%x)."
+     SNoHandleDC,                  "Fout bij het verkrijgen van de Handle van de
+'Device Context' (rc=$%x)."
+     SNoHandlePS,                  "Fout bij het verkrijgen van de Handle van de
+'Presentation Space' (rc=$%x)."
+     SPrinterIdle,                 "Er werd geprobeerd de functie '%s' van
+buiten een document aan te roepen."
+     SPrinterBusy,                 "Er werd geprobeerd de functie '%s' van
+binnen uit een document aan te roepen."
+     SDeviceNotFound,              "Geen apparaat voor wachtrij '%s' gevonden."
+     SJobProperties,               "Onverwachte grootte voor de eigenschappen
+van een afdruktaak. Er zijn %d in plaats van %d Bytes nodig."
+     SPrinterInit1,                "Fout bij het initialisieren van het
+printerobject."
+     SPrinterInit2,                "Printerfuncties zijn niet beschikbaar."
+
+     STerminateProgram,            "Programma beeindigen?"
+END
